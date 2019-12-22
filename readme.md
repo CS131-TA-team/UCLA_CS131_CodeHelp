@@ -1,7 +1,7 @@
 # UCLA CS131 Coding Helper
 
 ## Description
-This reporitory is a collection of helpful materials that might give you a better experience in learning CS131 taught by [Prof. Eggert](https://samueli.ucla.edu/people/paul-eggert/).
+This reporitory is a collection of helpful materials that might give you a better experience in learning CS131 taught by [Prof. Eggert](https://samueli.ucla.edu/people/paul-eggert/). Previous quarter helper code could be find in other *branches* (not the master branch).
 
 ## Written in Advance
 1. Nothing could be more important than the textbook (We refer to as Webber)
@@ -10,3 +10,12 @@ This reporitory is a collection of helpful materials that might give you a bette
     * Typically, the whole textbook is covered in your final exam. 
 2. Please do goto the lectures and take notes.
 3. Please start early on everything, especially the homework, you may find them take loger than expected.
+
+## Announcements
+* CS131 homework and projects
+  - TA will grade your homework
+  - Zhiping (Patricia), Xinyu, Kimmo, Shruti are your TAs
+* CS131 exam
+  - Graded on GradeScope
+* CS131 score punishment
+  - Exponential (<= 1 day -1%, <= 2 days -2%, <=3 days -4%, etc.)

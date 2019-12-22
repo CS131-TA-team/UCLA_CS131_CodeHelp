@@ -143,17 +143,6 @@ sudoku4_fd(L):-
 ## Tower Game
 * [online](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/towers.html)
 
-## Some examples to play with
-* CS131 situation
-  - TA will grade your homework
-  - Zhiping, Xinyu, Kimmo, Shruti are your TAs
-  - Patricia is the nickname of Zhiping
-  - Do Patricia grade your homework?
-* CS131 situation 2
-  - 10 exam questions in total
-  - each TA grade between 2 to 3 questions
-  - possible assignment of the questions to TAs
-* CS131 score punishment
-  - recursion
+
 
 
