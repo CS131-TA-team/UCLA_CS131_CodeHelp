@@ -14,7 +14,7 @@ This reporitory is a collection of helpful materials that might give you a bette
 ## Announcements
 * CS131 homework and projects
   - TA will grade your homework
-  - Zhiping (Patricia), Xinyu, Kimmo, Shruti are your TAs
+  - By some automatic grading scripts (so that's fair - but those scripts are generally bad in taking care of compilation errors, please be careful)
 * CS131 exam
   - Graded on GradeScope
 * CS131 score punishment
