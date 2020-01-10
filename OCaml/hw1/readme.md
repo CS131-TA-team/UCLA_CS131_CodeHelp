@@ -15,3 +15,4 @@
 * [The OCaml Manual](https://caml.inria.fr/pub/docs/manual-ocaml/libref/index.html)
     * Special requirements in **HW1**: only library functions in [Pervasives](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html) and in [List](https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html) are allowed.
 * An [online interpreter](https://try.ocamlpro.com/) to play with.
+* Xinyu provided code for [OCaml Basics](./OCaml_Vasics.ml). You may run it line by line to get yourself started.
