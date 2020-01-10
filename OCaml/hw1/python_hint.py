@@ -5,7 +5,8 @@
 # Usage:
 #     python python_hint.py
 # To all students:
-#     try implementing everything without the help from hint-code first
+#     try implementing everything **without** the help from hint-code first
+#
 # Fall 2019 by Patricia Xiao
 ########################################################################
 
