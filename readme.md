@@ -15,6 +15,7 @@ This reporitory is a collection of helpful materials that might give you a bette
 * CS131 homework and projects
     - TA will grade your homework
     - By some automatic grading scripts (so that's fair - but those scripts are generally bad in taking care of compilation errors / unexpected variable names, please be careful)
+    - **HW5** simplest grading script with all test cases omitted is [available here](https://github.com/CS131-TA-team/hw5-grading-script), please go through it carefully and use it wisely.
     - **Project** grading script is an enriched complex version of [this sample code](https://github.com/CS131-TA-team/CS131-Project-Sample-Grading-Script), please make sure that your code gets along with this script before your final submission. Feel free to use the sample code as a client that helps you make sure that your servers do the right thing.
 * CS131 exams
     - Graded on GradeScope
