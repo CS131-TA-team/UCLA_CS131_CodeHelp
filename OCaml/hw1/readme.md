@@ -2,7 +2,11 @@
 
 ## About this hint (and all the future hint code in CS131)
 * It is **NOT MANDATORY** to use hint code, we encourage independent thinking.
-* Don't take us wrong, hint code is not something you use to translate into your solution. Try to design your own solution first, and get some inspirations from hint code whenever get stucked.
+* Don't take us wrong, hint code is not something you use to translate into your solution. 
+    * Try to design your own solution first, and get some inspirations from hint code whenever get stucked.
+* Solving HW1 independently will be super helpful when you move on to HW2. 
+    * HW2 is much harder than & closely related to HW1, and is widely-known as the hardest homework in CS131. Working on HW1 independently will increase your chance of survival in HW2, and the rest of this course.
+    * Many students decided to drop after the deadline of HW2. 
 
 ## OCaml Starter Resource
 * [The Official Website](https://ocaml.org/)
