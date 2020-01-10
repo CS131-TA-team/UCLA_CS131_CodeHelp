@@ -13,10 +13,12 @@ This reporitory is a collection of helpful materials that might give you a bette
 
 ## Announcements
 * CS131 homework and projects
-  - TA will grade your homework
-  - By some automatic grading scripts (so that's fair - but those scripts are generally bad in taking care of compilation errors, please be careful)
-  - Project grading script is an enriched complex version of [this sample code](https://github.com/CS131-TA-team/CS131-Project-Sample-Grading-Script), please make sure that your code gets along with this script before your final submission. Feel free to use the sample code as a client that helps you evaluate that your servers do the right thing.
-* CS131 exam
-  - Graded on GradeScope
+    - TA will grade your homework
+    - By some automatic grading scripts (so that's fair - but those scripts are generally bad in taking care of compilation errors / unexpected variable names, please be careful)
+    - **Project** grading script is an enriched complex version of [this sample code](https://github.com/CS131-TA-team/CS131-Project-Sample-Grading-Script), please make sure that your code gets along with this script before your final submission. Feel free to use the sample code as a client that helps you make sure that your servers do the right thing.
+* CS131 exams
+    - Graded on GradeScope
+    - Midterms grading details will be released to students on GradeScope, but for finals, normally won't
+    - Regrading requests are always welcomed for midterm and final, but we don't wait forever for the regrading requests, if you do want a regrade please submit a regrading request on GradeScope (midterm, when this option is valid), or reach out to your TAs ASAP asking for it (final, when we don't show you the details, you can ask for them in person).
 * CS131 score punishment
-  - Exponential (<= 1 day -1%, <= 2 days -2%, <=3 days -4%, etc.)
+    - Exponential (<= 1 day -1%, <= 2 days -2%, <=3 days -4%, etc.)
