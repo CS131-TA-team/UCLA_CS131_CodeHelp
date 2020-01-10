@@ -1,3 +1,14 @@
+########################################################################
+# For whoever new to Python: 
+#     you may use this as pseudo code
+#     it is not mandatory to use hint code
+# Usage:
+#     python python_hint.py
+# To all students:
+#     try implementing everything without the help from hint-code first
+# Fall 2019 by Patricia Xiao
+########################################################################
+
 from math import *
 
 def subset(a, b):
