@@ -122,3 +122,6 @@ checkpoint
 # Racket
 *compiled/
 *.o
+*.cmi
+*.cmx
+*.opt
