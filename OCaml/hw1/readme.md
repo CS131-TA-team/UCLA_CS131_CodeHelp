@@ -18,3 +18,7 @@
 * An [online interpreter](https://try.ocamlpro.com/) to play with.
 * Xinyu provided code for [OCaml Basics](./OCaml_Vasics.ml). You may run it line by line to get yourself started with OCaml.
 * Some [hints](./python_hint.py) are provided in Python. If you don't know Python you can use it as pseudo-code. 
+
+## Currying
+* It is not required to understand currying in HW1, but if you are curious, please check for official explanation of [currying](https://ocaml.org/learn/tutorials/functional_programming.html#Partial-function-applications-and-currying), and also see if [this](./currying/) helps.
+* Currying will be covered in your midterm & final.
