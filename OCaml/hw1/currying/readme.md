@@ -1,5 +1,7 @@
 # An Early Start on Currying
 
+This is a simple OCaml currying example showing how it works & how to check OCaml assembly.
+
 ## Generate Assembly Code
 
 ```shell
