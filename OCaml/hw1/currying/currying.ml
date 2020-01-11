@@ -1,0 +1,1 @@
+let plus (z : int * int) = match z with (x, y) -> x + y;;
