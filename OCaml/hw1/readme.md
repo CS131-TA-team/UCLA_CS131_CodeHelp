@@ -17,6 +17,7 @@
 * [The OCaml Manual](https://caml.inria.fr/pub/docs/manual-ocaml/libref/index.html)
     * Special requirements in **HW1**: only library functions in [Pervasives](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html) and in [List](https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html) are allowed.
 * An [online interpreter](https://try.ocamlpro.com/) to play with.
+    * But this is an outdated version of OCaml, we use more recent versions.
 * Xinyu provided code for [OCaml Basics](./OCaml_Vasics.ml). You may run it line by line to get yourself started with OCaml.
 * Some [hints](./python_hint.py) are provided in Python. If you don't know Python you can use it as pseudo-code. 
 
