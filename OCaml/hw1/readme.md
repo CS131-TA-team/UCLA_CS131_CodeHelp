@@ -2,6 +2,7 @@
 
 ## About this hint (and all the future hint code in CS131)
 * It is **NOT MANDATORY** to use hint code, we encourage independent thinking.
+* **WARNING**: if you "strictly follow" the hint code, you'll **never** reach the solution, and you'll have **a lot of problem with type**. It is **only** good for telling you the logic. **It is a tragedy if you do translation.**
 * Don't take us wrong, hint code is not something you use to translate into your solution. 
     * Try to design your own solution first, and get some inspirations from hint code whenever get stucked.
 * Solving HW1 independently will be super helpful when you move on to HW2. 
