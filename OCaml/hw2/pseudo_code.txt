@@ -1,0 +1,52 @@
+(* 
+    hint code from Fall 2019
+    given by Prof. Eggert in class, re-organized by Xinyu Ma
+    Notice: this is a piece of pseudo-code as a hint for hw2
+ *)
+
+let id x = x
+
+(* A -> [[]] *)
+let matcherA = fun accept frag ->
+  accept frag
+
+let matcherA = id
+
+(* B -> [[T"t"]] *)
+let matcherB = fun accept frag ->
+  match frag with
+  | t::s when t = "t" -> accept s
+  | _ -> None
+
+(* C -> [[N D]; [N E]] *)
+let matcherC = fun accept frag ->
+  let r = matcherD accept frag in
+  match r with
+  | Some x -> Some x
+  | None -> matcherE accept frag
+
+(* F -> [[N G; N H]] *)
+let matcherF = fun accept frag ->
+  let acceptG = fun suffixG -> matcherH accept suffixG in
+  matcherG acceptG frag
+
+let matcherF = fun accept -> matcherG (matcherH accept)
+
+(* A -> [lst=[N B; N C; N D; ...]] *)
+let rec mmfcpl = function
+  | [] -> id
+  | p::ps ->
+    let mp = make_matcher p in
+    let mps = mmfcpl ps in
+    fun accept -> mp (mps accept)
+
+(* C -> lst=[[N D]; [N E]; [N F]; ...] *)
+let rec mmds = function
+  | [] -> fun _ _ -> None
+  | p::ps ->
+    let mp = make_matcher p in
+    let mps = mmds ps in
+    fun accept frag ->
+      match mp accept frag with
+      | None -> mps accept frag
+      | x -> x

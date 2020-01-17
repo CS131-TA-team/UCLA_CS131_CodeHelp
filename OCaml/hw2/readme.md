@@ -4,6 +4,9 @@
 * Still, not mandatory to be used.
 
 ## About the Files
+* [pseudo_code.txt](./pseudo_code.txt)
+    * It comes from Prof. Eggert's Fall 2019 lecture, refined by Xinyu Ma
+    * Note that it is only a piece of **pseudo** code, please don't ask us why it has compilation error.
 * [hw2tree_hint.py](./hw2tree_hint.py)
     * This piece of code introduces the structure of tree, and tree traversals. If you are already familiar with the tree structure, skip it.
 * [hw2_matcher2parser.py](./hw2_matcher2parser.py)
