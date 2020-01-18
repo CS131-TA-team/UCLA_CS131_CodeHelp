@@ -13,3 +13,5 @@
     * Many felt it easy implementing a matcher, but get confused how to move on to parser; this is how (in logic only; you still need to write your own implementation).
 * [option.ml](./option.ml)
     * You are not allowed to use the library functions in [Option](http://ocaml-lib.sourceforge.net/doc/Option.html). But listed here are some easy replacements of those library functions.
+* [grammer_converter_sample.ml](./grammer_converter_sample.ml)
+    * This is some sample test cases for grammar converter (converting from hw1-style grammar to hw2-style grammar)
