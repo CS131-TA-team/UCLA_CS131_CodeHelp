@@ -1,17 +1,3 @@
-(* 
- * the first few functions came from a previous-year student's hw1 solution
- * if you need these functions, we recommend you use your own HW1 code
- *)
-
-let rec subset a b = 
-    match a with
-    | [] -> true
-    | hd::tl -> 
-      if List.mem hd b then subset tl b else false;;
-
-let equal_sets a b = 
-    (subset a b) && (subset b a);;
-
 (*
  * type: symbol definition (in HW1 / HW2)
  *)
