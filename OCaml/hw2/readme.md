@@ -15,3 +15,4 @@
     * You are not allowed to use the library functions in [Option](http://ocaml-lib.sourceforge.net/doc/Option.html). But listed here are some easy replacements of those library functions.
 * [grammer_converter_sample.ml](./grammer_converter_sample.ml)
     * This is some sample test cases for grammar converter (converting from hw1-style grammar to hw2-style grammar), if you feel confused on how to test the correctness of that part please try this.
+* [Why_Acceptor.ml](./Why_Acceptor.ml) is the hint code Xinyu provides to you. It'll help you have a better understanding on HW2 settings.
