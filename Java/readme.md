@@ -7,12 +7,13 @@ Remember **not** to include your name / ID in report.
 
 ## About the .jar format
 
-- To Unzip the .jar file
+### To Unzip the .jar file
 ```bash
 jar xf jmm.jar
 ```
+Then you should see the *jmm* folder.
 
-- To zip your solutions
+### To zip your solutions
 ```bash
 jar cvf jmmplus.jar *.java
 ```
