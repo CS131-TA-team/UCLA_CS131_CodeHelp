@@ -22,6 +22,8 @@ jar cvf jmmplus.jar *.java
 
 All in homework spec.
 
+From **UnsafeMemory** class you call all the remaining classes. Please uncomment line 16 to 19 in *UnsafeMemory.java* to make the options you implemented available for debugging and testing.
+
 ## To compile
 ```bash
 javac *.java
@@ -38,6 +40,13 @@ means run our **UnsafeMemory** java class with parameters: ```Synchronized 8 100
 - divide the work into **8** threads of roughly equal size
 - do **100000000** swap transitions total
 - use a state array of **5** entries
+
+To test:
+```bash
+time timeout 3600 java UnsafeMemory Synchronized 8 100000000 5
+```
+- **time**: use real, user and system time
+- **timeout 3600**: run ```java UnsafeMemory Synchronized 8 100000000 5``` and wait for **3600** seconds, such that it won't loop forever
 
 
 
