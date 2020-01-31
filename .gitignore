@@ -125,3 +125,4 @@ checkpoint
 *.cmi
 *.cmx
 *.opt
+*.class
