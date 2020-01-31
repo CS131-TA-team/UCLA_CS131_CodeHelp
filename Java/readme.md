@@ -45,7 +45,7 @@ To test:
 ```bash
 time timeout 3600 java UnsafeMemory Synchronized 8 100000000 5
 ```
-- **time**: use real, user and system time
+- **time**: use real, user and system time (a [discussion](https://blog.gceasy.io/2016/12/08/real-time-greater-than-user-and-sys-time/) might be useful for you to understand the time measurements)
 - **timeout 3600**: run ```java UnsafeMemory Synchronized 8 100000000 5``` and wait for **3600** seconds, such that it won't loop forever
 
 
