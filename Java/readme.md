@@ -33,7 +33,11 @@ For your debugging purpose (just an example, you should try different parameters
 ```bash
 java UnsafeMemory Synchronized 8 100000000 5
 ```
-means run our UnsafeMemory class with 
+means run our **UnsafeMemory** java class with parameters: ```Synchronized 8 100000000 5```.
+- **SynchronizedState** implementation
+- divide the work into **8** threads of roughly equal size
+- do **100000000** swap transitions total
+- use a state array of **5** entries
 
-SynchronizedState implementation; 8 means to divide the work into 8 threads of roughly equal size; 100000000 means to do 100 million swap transitions total; and 5 says to use a state array of 5 entries. The output of this command should look something like this:
+
 
