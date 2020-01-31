@@ -2,6 +2,8 @@
 
 We don't have hint code for Java. And we don't think you need any hint code to get it done. For further information on the file format please visit [tutorial](https://docs.oracle.com/javase/tutorial/deployment/jar/index.html). For more on threads and locks [official language spec](https://docs.oracle.com/javase/specs/jls/se13/html/index.html) [Chapter 17](https://docs.oracle.com/javase/specs/jls/se13/html/jls-17.html)
 
+Xinyu provided [examples](./Java.tar.gz) to help you have a better understanding on Java objects.
+
 Remember **not** to include your name / ID in report.
 
 
