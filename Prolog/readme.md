@@ -19,9 +19,9 @@
 
 ## About the Files
 * [hello.pl](./hello.pl)
-    * Somewhere to get you started on the language, containing the basic usage of syntax.
+    * Hint to get you started on prolog, containing the basic syntax.
 * [examples.pl](./examples.pl)
-    * Some more complex examples.
+    * Some more-complex examples.
 * [unique_list.pl](./unique_list.pl)
     * An example from Kimmo's old slides, a showcase telling you the difference between **declarative** programming languages and imperative languages.
 * [sudoku_cell.pl](./sudoku_cell.pl)
