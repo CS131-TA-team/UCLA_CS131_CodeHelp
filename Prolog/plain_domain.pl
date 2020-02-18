@@ -3,15 +3,15 @@
 % a list contain N elements 
 % http://www.gprolog.org/manual/html_node/gprolog033.html
 % http://www.gprolog.org/manual/gprolog.html#hevea_default674
-% domain is all the enumerated answers of between(1, N, X)
-domain(N, Domain) :- 
+% Domain is all the enumerated answers of between(1, N, X)
+within_domain(N, Domain) :- 
     findall(X, between(1, N, X), Domain).
 
 % fill in a list of fixed length
 % http://www.gprolog.org/manual/gprolog.html#sec215
-fill([], _).
-fill([Head | Tail], N) :-
-    domain(N, Domain),
+fill_2d([], _).
+fill_2d([Head | Tail], N) :-
+    within_domain(N, Domain),
     permutation(Domain, Head),
     fill(Tail, N).
 
@@ -21,4 +21,4 @@ fill([Head | Tail], N) :-
 %        create_grid(Grid, 3).
 create_grid(Grid, N) :-
     length(Grid, N),
-    fill(Grid, N).
+    fill_2d(Grid, N).
