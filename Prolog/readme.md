@@ -28,3 +28,5 @@
     * Hint code on basis of finite-domain solver.
 * [list2D_hint.pl](./list2D_hint.pl)
     * Some examples on how to deal with a 2D array in prolog.
+* [plain_domain.pl](./plain_domain.pl)
+    * A piece of hint that might help you implement plain_tower with higher efficiency!
