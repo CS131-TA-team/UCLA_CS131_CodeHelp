@@ -13,7 +13,7 @@ fill_2d([], _).
 fill_2d([Head | Tail], N) :-
     within_domain(N, Domain),
     permutation(Domain, Head),
-    fill(Tail, N).
+    fill_2d(Tail, N).
 
 % here is an example that it might help you with...
 % but you know this is not the final answer...
