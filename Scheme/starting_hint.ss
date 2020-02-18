@@ -27,6 +27,9 @@
                (not (list? y)))
             (list 'if '% x y)]
          ; and below here it is your work to figure out how to judge every case
+         ; but! please pay attention: this is NOT the only structure you could have for solving this homework
+         ;     we actually encourage you to come up with OTHER designs if you can!
+         ; please only follow this starting hint when you REALLY don't know where to start!
     )
 )
 
