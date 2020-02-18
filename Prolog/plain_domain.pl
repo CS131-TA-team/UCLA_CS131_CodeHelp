@@ -7,7 +7,7 @@
 within_domain(N, Domain) :- 
     findall(X, between(1, N, X), Domain).
 
-% fill in a list of fixed length
+% fill in a 2D array with lists of fixed length (N)
 % http://www.gprolog.org/manual/gprolog.html#sec215
 fill_2d([], _).
 fill_2d([Head | Tail], N) :-
