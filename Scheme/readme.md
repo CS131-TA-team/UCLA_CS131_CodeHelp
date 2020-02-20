@@ -5,6 +5,11 @@ The relation is that, LISP ==(simplified)==> Scheme ==(a popular variation)==> R
 ## Getting Started
 - [Official Website](https://racket-lang.org/) (including installation guide, etc.)
 - [Official Documentation](https://docs.racket-lang.org/), *including* the [racket guide](https://docs.racket-lang.org/guide/index.html)
+- Probably will need to add it to the path manually on your local machine, e.g. if you use mac, then:
+    ```shell
+    echo $PATH
+    PATH=$PATH:/Applications/Racket\ v7.4/bin
+    ```
 
 ## About the Resources
 - [hello.ss](./hello.ss)
