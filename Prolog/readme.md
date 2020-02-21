@@ -30,3 +30,5 @@
     * Some examples on how to deal with a 2D array in prolog.
 * [plain_domain.pl](./plain_domain.pl)
     * A piece of hint that might help you implement plain_tower with higher efficiency!
+* [show_cut.pl](./show_cut.pl)
+    * Showing the impact of cut.
