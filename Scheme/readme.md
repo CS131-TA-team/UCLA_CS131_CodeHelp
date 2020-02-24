@@ -19,6 +19,6 @@ The relation is that, LISP ==(simplified)==> Scheme ==(a popular variation)==> R
     * But this is not the only option, neither the best one. Can you come up with shorter solution / more elegant design of the helper functions? If yes, be confident and use your unique ones instead.
 - [Sample Grading Script of HW5 with NO actual test cases (provided by Xinyu)](https://github.com/CS131-TA-team/hw5-grading-script)
     * This script will help you avoid compile error, wrong-name error, etc.
-- [Stronger Test Cases (Designed by Xinyu)](./Xinyu_Stronger_test_cases.txt)
+- [Stronger Test Cases (Designed by Xinyu)](./Xinyu_stronger_test_cases.txt)
     * These test cases will not guarantee you a full score, but will give you a higher chance of spotting bugs
 - [An additional Example on LISP Macros](https://github.com/CS131-TA-team/sigma_notation)
