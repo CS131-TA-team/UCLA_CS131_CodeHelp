@@ -27,3 +27,6 @@
 - Obviously it is not the real grading scripts, but the components I use to check for the correctness are almost the same (scoring function is not the same --- the version you see here is obviously an intermediate version, and in the current version, you should expect all outputs be "True")
 - Do not ask for your friends' code from previous quarters, we are changing the test cases.
 - Be sure to implement **whatever the spec requests**.
+- An **important** suggestion: please avoid using json file / txt file as configuration file! If you want to put your API keys into a separated file, try using *config.py* to hold it! Also, if you put your log file into a folder, please write the logic of **creating** that folder as well!
+- Only if when you put your *server.py* under the sample submission folder, and **directly** set it to run, without any additional action required, your script is safe to submit.
+- Please design your own test cases using the sample grading script we offer you. The existing samples for now are too naive.
