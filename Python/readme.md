@@ -18,6 +18,8 @@
 ## The Flooding Algorithm
 
 - [flooding_hint.py](./flooding_hint.py): the idea of the floading algorithm in general, but shouldn't be how it is implemented in the end, please consider asyncio.
+- More hints: you can consider using timestamp to tell if a message is already received & processed by the current server!
+- How to store the messages received? Completely up to you. e.g. a dictionary, a list, another object of your self-defined class, etc.
 
 ## The json Format
 
