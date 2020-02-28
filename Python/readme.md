@@ -23,6 +23,9 @@
 - More hints: you can consider using timestamp to tell if a message is already received & processed by the current server!
 - How to store the messages received? Completely up to you. e.g. a dictionary, a list, another object of your self-defined class, etc.
 
+## aiohttp Basics
+-[aiohttp_example.py](./aiohttp_example.py): the example of an aiohttp simplest illustration. the setting of ssl is to ensure it works on your laptop as well.
+
 ## The json Format
 
 - [json_hint.py](./json_hint.py): if you are not familiar with json format (will need it for the map API part), please check it out here.
