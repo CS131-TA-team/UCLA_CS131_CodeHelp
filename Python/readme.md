@@ -24,6 +24,7 @@
 ## The json Format
 
 - [json_hint.py](./json_hint.py): if you are not familiar with json format (will need it for the map API part), please check it out here.
+- Wait I mean you don't need to really store a json file... that is slightly more than needed for this project.
 
 ## How to test your code
 
