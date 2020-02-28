@@ -30,7 +30,7 @@ async def main(num):
     elif num < 0:
         print("I can't handle negative number")
     else:
-        odd_flag = await asyncio.gather(is_odd(num))
+        odd_flag = await is_odd(num)
         print("{0} is {1}".format(num, "odd" if odd_flag else "even"))
 
 if __name__ == "__main__":
