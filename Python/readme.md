@@ -9,6 +9,7 @@
 - [asyncio_syntax.py](./asyncio_syntax.py): asyncio basic syntax example.
 - [asyncio_basic.py](./asyncio_basic.py): asyncio basic usage.
 - [asyncio_naive.py](./asyncio_naive.py): another silly example.
+- [asyncio_task.py](./asyncio_task.py): an example using tasks.
 - (\*) [asyncio_advanced.py](./asyncio_advanced.py): more advanced usage that is not really required for this project.
 - [echo_server.py](./echo_server.py) and [echo_client.py](./echo_client.py)
     * usage: ```python echo_server.py Hello``` and then ```python echo_client.py```
