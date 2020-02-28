@@ -6,7 +6,7 @@
 - [message_hint.py](./message_hint.py): An example showing how you could handle message elegantly with classes. Not necessarily implemented this way, message handlers could be integrated directly into your server-class; or you could do without any class. It is also doable if you don't use class at all.
 
 ## asyncio Basics
-
+- [asyncio_syntax.py](./asyncio_syntax.py): asyncio basic syntax example.
 - [asyncio_basic.py](./asyncio_basic.py): asyncio basic usage.
 - [asyncio_naive.py](./asyncio_naive.py): another silly example.
 - (\*) [asyncio_advanced.py](./asyncio_advanced.py): more advanced usage that is not really required for this project.
