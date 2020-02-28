@@ -8,10 +8,11 @@ import time
 
 async def count(task_id):
 	print("One {}".format(task_id))
-	await asyncio.sleep(1./float(task_id)) # Any IO-intensive task here
+	await asyncio.sleep(task_id) # Any IO-intensive task here
 	print("Two {}".format(task_id))
 
 async def main():
+	# it shows that they are actually executed in parallel! Please see the time printed out
 	await asyncio.gather(count(1), count(2), count(3))
 
 if __name__ == "__main__":
