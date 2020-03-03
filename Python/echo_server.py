@@ -41,8 +41,8 @@ class Server:
 
     def run_until_interrupted(self):
         loop = asyncio.get_event_loop()
-        coro = asyncio.start_server(self.handle_echo, self.ip, self.port, loop=loop)
-        server = loop.run_until_complete(coro)
+        core = asyncio.start_server(self.handle_echo, self.ip, self.port, loop=loop)
+        server = loop.run_until_complete(core)
 
         # Serve requests until Ctrl+C is pressed
         print('serving on {}'.format(server.sockets[0].getsockname()))
