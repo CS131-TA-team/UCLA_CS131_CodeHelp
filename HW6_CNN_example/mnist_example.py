@@ -36,9 +36,6 @@ class Net(nn.Module):
 def train(model, train_loader, optimizer, epoch, log_interval=10, debug=False):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
-        if debug:
-            show_data(data, target)
-            exit(0)
         optimizer.zero_grad()
         output = model(data)
         loss = F.nll_loss(output, target)
@@ -55,13 +52,15 @@ def test(model, test_loader, debug=False):
     test_loss = 0
     correct = 0
     with torch.no_grad():
-        for data, target in test_loader:
-            if debug:
-                show_data(data, target)
-                exit(0)
+        for data, target in test_loader: 
             output = model(data)
             test_loss += F.nll_loss(output, target, reduction='sum').item()  # sum up batch loss
             pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
+            if debug:
+                show_data(data, target) 
+                print("ground truth: {}".format(target.numpy().reshape(-1)))
+                print("prediction: {}".format(pred.numpy().reshape(-1)))
+                exit(0)
             correct += pred.eq(target.view_as(pred)).sum().item()
 
     test_loss /= len(test_loader.dataset)
@@ -83,22 +82,14 @@ def show_data(data, target, show_row=2, show_col=3):
     plt.show()
 
 def get_data_loader(train=False):
-    if train:
-        data_loader = torch.utils.data.DataLoader(
-            datasets.MNIST('./data', train=True, download=True,
-                           transform=transforms.Compose([
-                               transforms.ToTensor(),
-                               # don't ask me the reason, these parameters are most oftenly used ...
-                               transforms.Normalize((0.1307,), (0.3081,))
-                           ])),
-            batch_size=64, shuffle=True)
-    else:
-        data_loader = torch.utils.data.DataLoader(
-            datasets.MNIST('./data', train=False, transform=transforms.Compose([
-                           transforms.ToTensor(),
-                           transforms.Normalize((0.1307,), (0.3081,))
-                       ])),
-            batch_size=4, shuffle=True)
+    data_loader = torch.utils.data.DataLoader(
+        datasets.MNIST('./data', train=train, download=train,
+                            transform=transforms.Compose([
+                            transforms.ToTensor(),
+                            # don't ask me the reason, these parameters are most oftenly used ...
+                            transforms.Normalize((0.1307,), (0.3081,))
+                        ])),
+        batch_size=64, shuffle=True)
     return data_loader
 
 def main():
@@ -114,7 +105,7 @@ def main():
 
     scheduler = StepLR(optimizer, step_size=1, gamma=0.7)
     for epoch in range(1, epochs + 1):
-        train(model, train_loader, optimizer, epoch)
+        train(model, train_loader, optimizer, epoch, debug=DEBUG)
         model.eval()
         test(model, test_loader, debug=DEBUG)
         scheduler.step()
