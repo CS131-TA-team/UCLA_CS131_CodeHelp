@@ -1,7 +1,7 @@
 # Hint Code for Project
 
 ## Warnings
-- Please avoid using ```transport.write()```
+- Please **avoid** using ```transport.write()```
 
 ## Python Basics
 
