@@ -1,5 +1,8 @@
 # Hint Code for Project
 
+## Warnings
+- Please avoid using ```transport.write()```
+
 ## Python Basics
 
 - [dict_and_class.py](./dict_and_class.py): The use of Python data structures like dictionary and class.
