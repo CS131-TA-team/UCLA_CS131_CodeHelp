@@ -16,3 +16,4 @@
 * [grammer_converter_sample.ml](./grammar_converter_sample.ml)
     * This is some sample test cases for grammar converter (converting from hw1-style grammar to hw2-style grammar), if you feel confused on how to test the correctness of that part please try this.
 * [Why_Acceptor.ml](./Why_Acceptor.ml) is the hint code Xinyu provides to you. It'll help you have a better understanding on HW2 settings.
+* [2006 hint code](./2006/) is the runnable copy of the 2006 hint code we provide you.
