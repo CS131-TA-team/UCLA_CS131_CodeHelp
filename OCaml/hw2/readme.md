@@ -23,6 +23,6 @@
 * If you somehow didn't make it to finish ```make_matcher``` and ```make_parser``` in time, please at least put the default implementation as a placeholder:
 ```shell
 let make_matcher gram accept frag = None;;
-let make_parser gram frag = None;
+let make_parser gram frag = None;;
 ```
 so that you can avoid potential errors such as ```Unbound value make_matcher```.
