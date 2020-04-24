@@ -20,6 +20,7 @@
 
 ## A few more tips
 * Check the [debugger](https://caml.inria.fr/pub/docs/manual-ocaml/debugger.html) if you love debuggers such as GDB etc. Not mandatory to use it.
+* If all your concern is about logic, not about OCaml, then you may consider editing the python hint to test your logic out.
 * If you somehow didn't make it to finish ```make_matcher``` and ```make_parser``` in time, please at least put the default implementation as a placeholder:
 ```shell
 let make_matcher gram accept frag = None;;
