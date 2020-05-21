@@ -16,3 +16,14 @@
 * [grammer_converter_sample.ml](./grammar_converter_sample.ml)
     * This is some sample test cases for grammar converter (converting from hw1-style grammar to hw2-style grammar), if you feel confused on how to test the correctness of that part please try this.
 * [Why_Acceptor.ml](./Why_Acceptor.ml) is the hint code Xinyu provides to you. It'll help you have a better understanding on HW2 settings.
+* [2006 hint code](./2006/) is the runnable copy of the 2006 hint code we provide you.
+
+## A few more tips
+* Check the [debugger](https://caml.inria.fr/pub/docs/manual-ocaml/debugger.html) if you love debuggers such as GDB etc. Not mandatory to use it.
+* If all your concern is about logic, not about OCaml, then you may consider editing the python hint to test your logic out.
+* If you somehow didn't make it to finish ```make_matcher``` and ```make_parser``` in time, please at least put the default implementation as a placeholder:
+```ocaml
+let make_matcher gram accept frag = None;;
+let make_parser gram frag = None;;
+```
+so that you can avoid potential errors such as ```Unbound value make_matcher```.

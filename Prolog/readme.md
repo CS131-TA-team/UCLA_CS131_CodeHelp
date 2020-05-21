@@ -30,5 +30,7 @@
     * Some examples on how to deal with a 2D array in prolog.
 * [plain_domain.pl](./plain_domain.pl)
     * A piece of hint that might help you implement plain_tower with higher efficiency!
+* [check_row_unique.pl](./check_row_unique.pl)
+    * Suggests one way of using the library function *sort* for easier checking within each line. (For columns consider [transpose](https://github.com/CS131-TA-team/UCLA_CS131_CodeHelp/blob/master/Prolog/sudoku_cell.pl#L28-L34))
 * [show_cut.pl](./show_cut.pl)
     * Showing the impact of cut.

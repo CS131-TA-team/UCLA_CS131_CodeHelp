@@ -1,7 +1,7 @@
 # Hint Code for Project
 
 ## Warnings
-- Please **avoid** using ```transport.write()```
+- Some previous students said that they sisn't get along well with the grading script using ```transport.write()```, but some other students passed everything using ```transport.write()```. There might be some tricky things going on in this part. Please be aware that there could be potentially some problems.
 
 ## Python Basics
 
